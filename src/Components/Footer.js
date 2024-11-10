@@ -20,7 +20,7 @@ const Footer = () => {
 
 
             <FaHome size={20} style={{ color: "#fff", marginRight:"2rem" }} />
-              <p> 123 Housing society.</p>
+              <p style={{ color: "#fff"}}> 123 Housing society.</p>
               <p>Bangladesh.</p></div>
             
 
@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="right">
           <h4>About the company</h4>
           <p>
-            Direction Educare, a trailblazer in the content industry, cultivates
+            Solvimate-LTD Grow Together, a trailblazer in the content industry, cultivates
             knowledge through innovative solutions, fostering learning
             excellence for a brighter future.
           </p>
