@@ -80,6 +80,7 @@
         flex-direction: column;
       width: 90%; /* Make cards take up more space */
       margin-bottom: 20px; /* Add space between cards */
+      margin-left: auto;
     }
   
     .servics-icon {

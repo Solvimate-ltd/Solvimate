@@ -27,7 +27,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              +91 60062 34054
+              {/* +91 60062 34054 */}
             </h4>
           </div>
           <div className="email">
