@@ -1,0 +1,115 @@
+.pricing{
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #fff;
+
+}
+.card-container{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+
+}
+.card {
+    display: flex;
+    border: 2px solid #eee;
+    color: #eee;
+    background-color: rgb(226, 236, 207);
+    text-align: center;
+    padding: 1rem;
+    height: 100%;
+
+}
+.card h4{
+   margin-top: 12px;
+}
+
+.card h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.card p{
+    padding: 10px 0;
+    text-align:start;
+}
+
+.btc{
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+
+}
+.card .btn{
+
+    display: block;
+    width: 60%;
+    margin: 1rem auto;
+    margin-left: 0px;
+
+}
+.card .btn:hover{
+    color: black;
+}
+
+@media screen  and (max-width: 840px){
+
+    .card-container{
+        max-width: 80%;
+        margin: auto;    
+        grid-template-columns:  1fr;
+        
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 562px) {
+    .pricing {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center;
+    }
+  
+    .card-container {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center;
+      width: 100%;
+    }
+  
+    .card {
+      width: 90%; /* Make cards take up more space */
+      margin-bottom: 20px; /* Add space between cards */
+    }
+  
+    .servics-icon {
+      margin-right: 0; /* Remove extra margin on smaller screens */
+    }
+  
+    .card .right p {
+      font-size: 14px; /* Adjust text size for smaller screens */
+    }
+  
+    .btn {
+      font-size: 10px; /* Adjust button text size */
+      padding: 8px 16px; /* Adjust button padding */
+    }
+  }
+  
+  /* Further adjustments for very small screens (320px and smaller) */
+  @media (max-width: 375px) {
+
+    .card {
+        display: flex;
+        flex-direction: column;
+      width: 90%; /* Make cards take up more space */
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  
+    .btn {
+      font-size: 12px; /* Smaller button text */
+      padding: 6px 12px; /* Reduce button padding */
+    }
+  
+    .card .right p {
+      font-size: 12px; /* Reduce text size further */
+    }
+}
