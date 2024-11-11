@@ -3,7 +3,7 @@ import {
   FaHome,
   FaLinkedin,
   FaMailBulk,
-  FaPhone,
+  // FaPhone,
   FaTwitter,
 } from "react-icons/fa";
 import "./FooterStyles.css";
@@ -18,17 +18,17 @@ const Footer = () => {
         <h4 style={{ color: "#fff"}}>Contact Information.</h4>
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight:"2rem" }} />
-              <p style={{ color: "#fff"}}>Himachal pardesh.</p>
-              <p style={{ color: "#fff"}}> INDIA</p>
+              <p style={{ color: "#fff"}}>Address:Uttarpardesh</p>
+              <p style={{ color: "#fff"}}> (INDIA)</p>
               </div>
           <div className="phone">
-            <h4 style={{ color: "#fff"}}>
+            {/* <h4 style={{ color: "#fff"}}>
               <FaPhone
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              {/* +91 60062 34054 */}
-            </h4>
+              +91 60062 34054
+            </h4> */}
           </div>
           <div className="email">
             <h4 style={{ color: "#fff"}}>
@@ -36,7 +36,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              solvimate.hr@gmail.com
+             operationssolvimate@gmail.com
             </h4>
           </div>
         </div>
