@@ -26,9 +26,8 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg":"header"}>
         <Link to="/"><img src={logo} alt="Portfolio Logo" style={{ height: '80px' }} /></Link>
-        {/* <img src={logo} alt="Portfolio Logo" style={{ height: '50px' }} /> */}
         <ul className={click ? "nav-menu active":"nav-menu" }  >
-            <li> <Link to ="/Home">Home</Link> </li>
+            <li> <Link to ="/">Home</Link> </li>
             <li> <Link to ="/Overview">Overview</Link> </li>
             <li> <Link to ="/Services">Services</Link> </li>
             <li> <Link to ="/Carrer">Carrer</Link> </li>

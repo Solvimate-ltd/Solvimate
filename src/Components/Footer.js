@@ -20,8 +20,8 @@ const Footer = () => {
 
 
             <FaHome size={20} style={{ color: "#fff", marginRight:"2rem" }} />
-              <p style={{ color: "#fff"}}> 123 Housing society.</p>
-              <p>Bangladesh.</p></div>
+              <p style={{ color: "#fff"}}>Himachal pardesh</p>
+              <p>INDIA</p></div>
             
 
          
@@ -33,7 +33,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              1-2-3-4-5-6-7-8-9
+              +91 60062 34054
             </h4>
           </div>
           <div className="email">
@@ -42,7 +42,8 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              solvimate email
+              solvimate.hr@gmail.com
+
             </h4>
           </div>
         </div>
