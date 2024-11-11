@@ -7,7 +7,7 @@ const Overview = () => {
   return (
     <div>
       <Navbar/>
-      <Hero2img heading="OVERVIEW" TEXT=" "/>
+      <Hero2img heading="OVERVIEW" text="Customer Satisfaction is Our Biggest Advertisement!"/>
       <Footer/>
     </div>
   )

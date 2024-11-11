@@ -48,8 +48,8 @@ const Footer = () => {
 
               <p style={{marginBottom:"10px"}}><Link style={{color:"#fff"}}  to="/services">Services</Link></p>
 
-              <p style={{marginBottom:"10px"}}><Link style={{color:"#fff"}}  to="/">carrer</Link></p>
-              <p style={{marginBottom:"10px"}}><Link style={{color:"#fff"}}  to="/">Contact</Link></p>
+              <p style={{marginBottom:"10px"}}><Link style={{color:"#fff"}}  to="/carrer">carrer</Link></p>
+              <p style={{marginBottom:"10px"}}><Link style={{color:"#fff"}}  to="/contact">Contact</Link></p>
 
 
               
