@@ -11,7 +11,7 @@ const Navbar = () => {
     const handleClick =()=>{
         setClick(!click);
 
-    }
+    } 
 
     const [color,setColor] = useState(false);
     const changecolor=()=>{
@@ -30,6 +30,7 @@ const Navbar = () => {
             <li> <Link to ="/">Home</Link> </li>
             <li> <Link to ="/Overview">Overview</Link> </li>
             <li> <Link to ="/Services">Services</Link> </li>
+            <li> <Link to ="/OurTeam">Our Team</Link> </li>
             <li> <Link to ="/Carrer">Carrer</Link> </li>
             <li> <Link to ="/Contact">Contact</Link> </li>
 
@@ -41,10 +42,6 @@ const Navbar = () => {
             {click?(<FaTimes size={20} style={{color:"rgb(76, 86, 99)", cursor:"pointer"}}/>):
                         (<FaBars size={20} style={{color:"rgb(76, 86, 99)" , cursor:"pointer"}}/>
                         )}
-            
-
-
-
         </div>
         </div>
         

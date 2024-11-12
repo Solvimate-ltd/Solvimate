@@ -16,33 +16,33 @@ const HomeExpertise = () => {
 
         <div className="grid-item">
           <span className="numbers">
-            1.5<sup>+</sup>
+            2000<sup>+</sup>
           </span>
           <h4>Minutes of Multimedia Content Created</h4>
         </div>
         <div className="grid-item">
           <span className="numbers">
-            1.5<sup>+</sup>
+            15000<sup>+</sup>
           </span>
           <h4>Assessment Solutions Every Month</h4>
         </div>
         <div className="grid-item">
           <span className="numbers">
-            1.5<sup>+</sup>
+            100<sup>+</sup>
           </span>
-          <h4>Interactive components</h4>
+          <h4>Total Members</h4>
         </div>
         <div className="grid-item">
           <span className="numbers">
-            1.5<sup>+</sup>
+            8<sup>+</sup>
           </span>
           <h4>Countries of Global Presence through Local Partners & Associates</h4>
         </div>
         <div className="grid-item">
           <span className="numbers">
-            1.5<sup>+</sup>
+          10<sup>+</sup>
           </span>
-          <h4>Million Books Printed</h4>
+          <h4>Books Creation</h4>
         </div>
       </div>
     </div>
