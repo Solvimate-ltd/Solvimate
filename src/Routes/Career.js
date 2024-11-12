@@ -7,7 +7,7 @@ const Carrer = () => {
   return (
     <div>
       <Navbar/>
-      <Hero2img heading="CARRERS" text="Your trusted carriers for fast, secure delivery." />
+      <Hero2img heading="CAREER" text="Your trusted carriers for fast, secure delivery." />
       <Footer/>
       
     </div>

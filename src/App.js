@@ -2,7 +2,7 @@ import React from "react";
 import './index.css'
 import Home from "./Routes/Home"
 import Contact from "./Routes/Contact"
-import Carrer from "./Routes/Carrer"
+import Carrer from "./Routes/Career"
 import Services from "./Routes/Services"
 import Overview from "./Routes/Overview"
 import OurTeam from "./Routes/OurTeam";
@@ -17,7 +17,7 @@ function App() {
       <Route path="/Overview" element={<Overview/>} />
       <Route path="/Services" element={<Services/>} />
       <Route path="/OurTeam" element={<OurTeam/>} />
-      <Route path="/Carrer" element={<Carrer/>} />
+      <Route path="/Career" element={<Carrer/>} />
       <Route path="/Contact" element={<Contact/>} />
     </Routes>
 
