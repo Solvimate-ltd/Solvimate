@@ -59,7 +59,10 @@
     }
     
 }
-@media (min-width: 375px) and (max-width: 412px){
+@media (min-width: 375px) and (max-width: 481px){
+    .hero{
+        width: 110%;
+    }
     .content h1{
         font-size: 18px;
     }
@@ -81,6 +84,11 @@
     }
 
     @media (min-width: 300px) and (max-width: 375px) {
+
+        .hero{
+            width: 110%;
+            overflow: hidden;
+        }
         
         .btn {
           padding: 6px 12px; 

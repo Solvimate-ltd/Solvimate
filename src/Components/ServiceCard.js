@@ -106,8 +106,7 @@ const ServiceCard = () => {
           </div>
         </div>
 
-
-
+        
         <div className="card">
           <div className="left"> 
             
@@ -220,7 +219,11 @@ const ServiceCard = () => {
         </div>
         <div className="card">
           <div className="left"> 
-            
+
+
+
+
+
         <h4 className="servics-icon"> <MdOutlineVideoChat 
               size={60}
               style={{ color: "skyblue", marginRight: "2rem" }}
