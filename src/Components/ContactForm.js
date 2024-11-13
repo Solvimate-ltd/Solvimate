@@ -15,7 +15,7 @@ const ContactForm = () => {
             style={{ border: 0 }} 
             allowFullScreen 
             loading="lazy" 
-            title="Our Location on Google Maps" /* Adding a unique title */
+            title="Our Location on Google Maps" 
         ></iframe>
         </div>
         <form>

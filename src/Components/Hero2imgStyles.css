@@ -44,11 +44,11 @@
 }
 @media (min-width: 300px) and (max-width: 375px) {
     .hero-img {
-        width: 120vw; /* Ensures full viewport width coverage */
+        width: 120vw; 
         height: 60vh;
         background-color: rgba(0, 0, 0, 0.5);
         position: relative;
-        /* margin-left: 10%; */
+       
     }
     .hero-img::before {
         width: 120vw;
@@ -56,14 +56,14 @@
         background-position: center;
     }
     .heading {
-        padding: 0 1rem; /* Adjusts for narrower screens */
+        padding: 0 1rem; 
     }
     .hero-img h1 {
-        font-size: 1.8rem; /* Scales down heading font size */
+        font-size: 1.8rem; 
     }
     .hero-img p {
-        font-size: 1.2rem; /* Scales down paragraph font size */
+        font-size: 1.2rem; 
         text-align: center;
-        padding: 0 1rem; /* Adds padding for readability */
+        padding: 0 1rem; 
     }
 }

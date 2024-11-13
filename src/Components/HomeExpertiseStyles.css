@@ -15,7 +15,7 @@
 .grid-container {
   width: 160vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 80px;
 }
 .numbers {
@@ -43,12 +43,12 @@
 @media (max-width: 1200px) {
     .grid-container {
       width: 100%;
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      grid-template-columns: repeat(2, 1fr);
       gap: 40px;
     }
   
     .numbers {
-      font-size: 40px; /* Adjust font size */
+      font-size: 40px; 
     }
   
     .grid-item {
@@ -59,11 +59,11 @@
 
   @media (max-width: 768px) {
     .parent-container {
-      padding: 15px; /* Reduce padding for tablets */
+      padding: 15px;
     }
   
     .grid-container {
-      grid-template-columns: 1fr; /* Single column on tablets */
+      grid-template-columns: 1fr; 
       gap: 30px;
     }
   
@@ -74,7 +74,7 @@
   
     .grid-item {
       height: 22vh;
-      padding: 0px; /* Adjust padding inside cards */
+      padding: 0px; 
     }
     .grid-item h4{
         padding-top: 4%;
@@ -84,7 +84,7 @@
 
 @media (max-width: 480px) {
     .parent-container {
-      padding: 20px; /* Less padding */
+      padding: 20px;
       width: 110%;
       overflow: hidden;
     }
@@ -96,7 +96,7 @@
     }
   
     .numbers {
-      font-size: 30px; /* Smaller font size */
+      font-size: 30px; 
     }
   
     .grid-item {
@@ -109,25 +109,25 @@
     .parent-container {
       padding: 20px;
      
-       /* Reduce padding for smaller screens */
+      
     }
   
     .grid-container {
-      width: 100%; /* Make grid container take full width */
-      grid-template-columns: 1fr; /* Stack items in a single column */
-      gap: 20px; /* Reduce gap between items */
+      width: 100%; 
+      grid-template-columns: 1fr; 
+      gap: 20px; 
     }
   
     .numbers {
-      font-size: 30px; /* Reduce font size */
+      font-size: 30px; 
     }
   
     .grid-item {
-      height: 20vh; /* Adjust card height */
-      padding: 10px; /* Reduce padding inside cards */
+      height: 20vh; 
+      padding: 10px; 
     }
   
     .grid-item h4 {
-      padding-top: 5%; /* Reduce top padding */
+      padding-top: 5%; 
     }
   }

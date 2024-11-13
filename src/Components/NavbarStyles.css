@@ -26,7 +26,7 @@
     color: rgb(194, 227, 129)
 }
 .nav-menu li a:hover {
-    color: white; /* Color on hover */
+    color: white; 
 }
 
 .hamburger{
