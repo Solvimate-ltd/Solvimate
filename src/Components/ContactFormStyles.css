@@ -38,9 +38,9 @@
 form{
     display: flex;
     flex-direction: column;
-    padding: 8rem ;
+    padding: 3rem ;
     margin: auto;
-    min-width: 45%;
+    min-width: 35%;
     background-color: rgb(221, 228, 222);
     border-radius: 3%;
 }
