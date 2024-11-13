@@ -1,0 +1,146 @@
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f0f0f0; 
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem; 
+    /* width: 100%; */
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 250px; 
+    width: 250px;
+    text-align: center;
+}
+.container h3{
+    margin-left: 15px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #e0e0e0; 
+    padding: 1rem;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 0.5rem; 
+}
+
+ .info-text {
+    display: flex;
+    align-items: center;  
+    gap: 2rem;  
+}
+
+@media (max-width: 942px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);  /* Stack in a single column */
+        gap: 2rem;  /* Reduce gap for smaller screens */
+    }
+
+    .box {
+        width: 90%;  /* Make boxes take up more space on small screens */
+        height: auto;  /* Allow boxes to grow as needed */
+    }
+
+    /* Reduce padding and font size for smaller screens */
+    .logo {
+        width: 60px;
+        height: 60px;
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    .container h3 {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+}
+
+/* For small screens (e.g., mobile), further adjustments */
+@media (max-width: 560px) {
+    .container {
+        grid-template-columns:  1fr;  /* Stack in a single column */
+        gap: 2rem;  /* Reduce gap for smaller screens */
+    }
+    .wrapper {
+        padding: 1rem;  /* Reduce padding for mobile */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .box {
+        padding: 1.5rem;  /* Reduce box padding */
+        width: 100%;  /* Make boxes narrower */
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+}
+@media (min-width: 300px) and (max-width: 375px) {
+    .wrapper {
+        padding: 1rem; 
+        width: 120%; /* Reduce padding for small screens */
+        overflow: hidden;
+    }
+
+    .container {
+        grid-template-columns: 1fr;  /* Stack boxes vertically */
+        gap: 1.5rem;  /* Reduce gap for small screens */
+    }
+
+    .box {
+        width:100%;  /* Make boxes take up more space on small screens */
+        height: auto;  /* Allow boxes to grow as needed */
+        padding: 1.5rem;  /* Reduce padding in the box */
+    }
+
+    .logo {
+        width: 50px;  /* Smaller logo */
+        height: 50px;
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+
+    .container h3 {
+        margin-left: 0;
+        font-size: 1rem;  /* Smaller font size for small screens */
+    }
+
+    /* Adjust the font size for text inside the boxes */
+    .box h3 {
+        font-size: 1.1rem;
+    }
+}   
+
+
+
+
+
+
