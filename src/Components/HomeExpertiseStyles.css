@@ -27,7 +27,7 @@
 
 .grid-item h4 {
   padding-top: 10%;
-}
+} 
 
 
 .grid-item {
@@ -35,7 +35,7 @@
   padding: 20px;
   text-align: center;
   border: 1px solid #ccc;
-  height: 29vh;
+  height: 35vh;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -52,7 +52,7 @@
     }
   
     .grid-item {
-      height: 25vh;
+      height: 30vh;
     }
   }
   
@@ -73,7 +73,7 @@
     }
   
     .grid-item {
-      height: 22vh;
+      height: 25vh;
       padding: 0px; 
     }
     .grid-item h4{
@@ -104,12 +104,12 @@
       padding: 10px;
     }
   }
-
-@media (max-width: 300px) {
+ 
+  @media (min-width: 300px) and (max-width: 375px) {
     .parent-container {
       padding: 20px;
-     
-      
+      width: 120%;
+      overflow: hidden;
     }
   
     .grid-container {
