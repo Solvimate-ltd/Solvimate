@@ -9,7 +9,7 @@
 }
 .parent-container h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
 }
 
 .grid-container {
@@ -21,7 +21,7 @@
 .numbers {
   font-size: 50px;
   font-weight: 600;
-  color: rgb(96, 248, 137);
+  color: rgb(77, 86, 99);
 }
 
 
@@ -31,7 +31,7 @@
 
 
 .grid-item {
-  background-color: rgb(223, 247, 179);
+  background-color:  rgb(205, 217, 182);
   padding: 20px;
   text-align: center;
   border: 1px solid #ccc;

@@ -9,7 +9,7 @@ const CareerPage = () => {
 
 
 <div className='form'>
-        <div className='contact-information'>
+        <div className='contact-information '>
             <p className='heading-contactinfo'>Join Us on Our Mission to Innovate and Inspire!</p>
 
             <p>We’re on the lookout for dynamic, talented individuals who thrive on innovation, embrace challenges, and are eager to make a meaningful impact! Join our vibrant, <br/>fast-paced team of professionals dedicated to shaping a brighter tomorrow, and take your career to new heights with us.</p>

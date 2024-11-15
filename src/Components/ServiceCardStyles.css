@@ -1,7 +1,7 @@
 .pricing {
   width: 100%;
   padding: 6rem 1rem;
-  background-color: #fff;
+  background-color: rgb(229, 242, 208);
 }
 .card-container {
   max-width: 1000px;
@@ -14,7 +14,7 @@
   display: flex;
   border: 2px solid #eee;
   color: #eee;
-  background-color: rgb(226, 236, 207);
+  background-color: rgb(205, 217, 182);
   text-align: center;
   padding: 1rem;
   height: 100%;
