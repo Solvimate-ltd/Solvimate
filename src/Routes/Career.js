@@ -11,7 +11,6 @@ const Carrer = () => {
       <Hero2img heading="CAREER" text="Your trusted carriers for fast, secure delivery." />
       <CareerPage/>
       <Footer/>
-      
     </div>
   )
 }

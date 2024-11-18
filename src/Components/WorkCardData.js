@@ -1,15 +1,13 @@
 
 import photo2 from "../assets/Aman Malik.jpg";
-import photo1 from "../assets/Arpit Mishra.jpg"
+// import photo1 from "../assets/Arpit Mishra.jpg"
 import photo3 from "../assets/Fahmitha jahaan fathima A.jpg"
-
 import photo4 from "../assets/PuJa.jpg"
 import photo6 from "../assets/Naved Faisal.jpg"
 import photo7 from "../assets/Kapil Bedi.jpeg"
 import photo8 from "../assets/tanvi.jpg"
 import photo9 from "../assets/sourabh.jpg"
 import photo10 from "../assets/Nikhal.jpg"
-
 const projectCardData = [
   {
     imgsrc: photo10,
@@ -29,14 +27,14 @@ const projectCardData = [
     view: "",
   },
 
-  {
-    imgsrc: photo1,
-    name:"Mr.Arpit Mishra",
-    title: "(JR. TeamLead - SME & Operations)",
-    text:
-      "I am able to delegate tasks based on my team member's strengths, and I always ensure I fully brief my team on the objectives we are all responsible for.",
-    view: "",
-  },
+  // {
+  //   imgsrc: photo1,
+  //   name:"Mr.Arpit Mishra",
+  //   title: "(JR. TeamLead - SME & Operations)",
+  //   text:
+  //     "I am able to delegate tasks based on my team member's strengths, and I always ensure I fully brief my team on the objectives we are all responsible for.",
+  //   view: "",
+  // },
 
   {
     imgsrc: photo4,
@@ -88,12 +86,6 @@ const projectCardData = [
       "Hey I live in delhi and i am currently pursuing my bachelor's in technology (Computer science ).",
     view: "",
   },
- 
-
-  
-  
-
-
 ];
 
 export default projectCardData;

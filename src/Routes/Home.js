@@ -6,6 +6,7 @@ import HomeExpertise from '../Components/HomeExpertise'
 import ServiceCard from '../Components/ServiceCard'
 import Testimonial from '../Components/Testamonail'
 
+
 const Home = () => {
   return (
     <div>
@@ -13,7 +14,10 @@ const Home = () => {
       <HeroImg/>
       <ServiceCard/>
       <HomeExpertise/>
+      <h1 style={{ textAlign: 'center' }}>Testimonial</h1>
       <Testimonial/>
+      
+      
     
       <Footer/>
     </div>

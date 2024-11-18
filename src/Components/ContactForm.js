@@ -2,6 +2,38 @@ import './ContactFormStyles.css'
 import React from 'react'
 
 const ContactForm = () => {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "affabd8d-84cb-4625-914b-8f26925aa2e2");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+      alert("Message Sent Successfully!");
+      // form.reset();
+    }
+  };
+
+
+
+
+
+
+
+
   return (
     <div className='form'>
         <div className='contact-information'>
@@ -18,15 +50,15 @@ const ContactForm = () => {
             title="Our Location on Google Maps" 
         ></iframe>
         </div>
-        <form>
+        <form onSubmit={onSubmit}>
             <lable>Your Name</lable>
-            <input type='text'></input>
+            <input type='text'  placeholder='Enter your name' name='name' required></input>
             <lable>Email</lable>
-            <input type='email'></input>
+            <input type='email'  placeholder='Enter your email' name='email' required></input>
             <lable>subject</lable>
-            <input type='text'></input>
+            <input type='text'  placeholder='Enter your Subject'  name='Subject'required></input>
             <label>Message</label>
-            <textarea rows="6" placeholder='Type Your message here'></textarea>
+            <textarea name='message'   rows="6" placeholder='Type Your message here' required></textarea>
             <button className='btn'> Submit here
             </button>
         </form>
