@@ -4,7 +4,7 @@ import HeroImg from '../Components/HeroImg'
 import Footer from '../Components/Footer'
 import HomeExpertise from '../Components/HomeExpertise'
 import ServiceCard from '../Components/ServiceCard'
-import Testimonial from '../Components/Testamonail'
+
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
       <ServiceCard/>
       <HomeExpertise/>
       <h1 style={{ textAlign: 'center' }}>Testimonial</h1>
-      <Testimonial/>
+     
       
       
     
