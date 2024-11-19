@@ -14,7 +14,7 @@ const Home = () => {
       <HeroImg/>
       <ServiceCard/>
       <HomeExpertise/>
-      <h1 style={{ textAlign: 'center' }}>Testimonial</h1>
+      {/* <h1 style={{ textAlign: 'center' }}>Testimonial</h1> */}
      
       
       
