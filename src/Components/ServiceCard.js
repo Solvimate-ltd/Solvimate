@@ -31,7 +31,7 @@ const ServiceCard = () => {
               teachers, and parents.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/K12page" className="btn">
               Get this service!
             </Link>
           </div>

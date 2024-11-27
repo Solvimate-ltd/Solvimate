@@ -15,10 +15,6 @@ const Home = () => {
       <ServiceCard/>
       <HomeExpertise/>
       {/* <h1 style={{ textAlign: 'center' }}>Testimonial</h1> */}
-     
-      
-      
-    
       <Footer/>
     </div>
   )
