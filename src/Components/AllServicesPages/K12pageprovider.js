@@ -1,5 +1,5 @@
 import React from "react";
-import "./K12pageproviderStyles.css";
+import "./ServicesPagesStyles.css";
 import image from "../../assets/ServicesPages/K12-service-provider.jpg";
 import { Link } from "react-router-dom";
 

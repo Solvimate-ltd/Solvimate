@@ -8,11 +8,11 @@ import Overview from "./Routes/Overview"
 import OurTeam from "./Routes/OurTeam";
 import { Route, Routes } from "react-router-dom";
 import K12page from "./Routes/K12page";
+import CorporateLearning from "./Routes/CorporateLearning";
 
 function App() {
   return (
     <>
-
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/Overview" element={<Overview/>} />
@@ -21,6 +21,8 @@ function App() {
       <Route path="/Career" element={<Carrer/>} />
       <Route path="/Contact" element={<Contact/>} />
       <Route path="/K12page" element={<K12page/>} />
+      <Route path="/CorporateLearning" element={<CorporateLearning/>} />
+
 
       
     </Routes>
