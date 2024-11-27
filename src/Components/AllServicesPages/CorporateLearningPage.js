@@ -13,7 +13,7 @@ const CorporateLearningPage = () => {
             <span className="textWrapper">
               {/* <span>-Corporate Learning-</span> */}
               <h2>-Corporate Learning-</h2>
-              <h2>Solvimate:- Your Trusted Partner in Corporate Learning Content Creation</h2>
+              <h2>Solvimate: Your Trusted Partner in Corporate Learning Content Creation</h2>
               <p>
               At Solvimate, we specialize in delivering exceptional corporate learning content tailored to meet organizational needs. Our dedicated team focuses exclusively on creating impactful and engaging corporate content.<br/><br/>
               With a team of 20+ Subject Matter Experts (SMEs), we bring expertise and creativity to every project. Our corporate content offerings include compelling stories related to products, brands, and companies, as well as product descriptions, website content, email campaigns, social media content, and article writing.<br/><br/>

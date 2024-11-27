@@ -86,7 +86,7 @@ const ServiceCard = () => {
               sustainable growth.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/SeoBasedContent" className="btn">
               Get this service!
             </Link>
           </div>
