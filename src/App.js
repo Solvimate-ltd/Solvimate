@@ -10,6 +10,9 @@ import { Route, Routes } from "react-router-dom";
 import K12page from "./Routes/K12page";
 import CorporateLearning from "./Routes/CorporateLearning";
 import SeoBasedContent from "./Routes/SeoBasedContent";
+import BookWriting from "./Routes/BookWriting";
+import Translation from "./Routes/Translation";
+import SeoOptimizeBlog from "./Routes/SeoOptimizeBlog";
 
 function App() {
   return (
@@ -21,9 +24,16 @@ function App() {
       <Route path="/OurTeam" element={<OurTeam/>} />
       <Route path="/Career" element={<Carrer/>} />
       <Route path="/Contact" element={<Contact/>} />
+
       <Route path="/K12page" element={<K12page/>} />
       <Route path="/CorporateLearning" element={<CorporateLearning/>} />
       <Route path="/SeoBasedContent" element={<SeoBasedContent/>} />
+      <Route path="/BookWriting" element={<BookWriting/>} />
+      <Route path="/Translation" element={<Translation/>} />
+      <Route path="/SeoOptimizeBlog" element={<SeoOptimizeBlog/>} />
+
+
+
 
 
 

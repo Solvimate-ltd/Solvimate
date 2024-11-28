@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ServicesPagesStyles.css";
-import image from "../../assets/ServicesPages/K12-service-provider.jpg";
+import image from "../../assets/ServicesPages/seo_based_content.jpg";
 import { Link } from "react-router-dom";
 
 const SeoBasedLearningPage = () => {

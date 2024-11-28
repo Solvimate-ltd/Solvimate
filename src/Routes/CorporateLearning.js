@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "../Components/Navbar"
 import Hero2img from '../Components/Hero2img'
 import Footer from '../Components/Footer'
-// import CorporateLearning from '../Components/AllServicesPages/CorporateLearningPage'
+
 import CorporateLearningPage from '../Components/AllServicesPages/CorporateLearningPage'
 
 

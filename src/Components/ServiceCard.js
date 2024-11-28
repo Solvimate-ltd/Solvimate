@@ -110,7 +110,7 @@ const ServiceCard = () => {
               with expert support at every stage of the writing process.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/BookWriting" className="btn">
               Get this service!
             </Link>
           </div>
@@ -134,7 +134,7 @@ const ServiceCard = () => {
               help your message resonate with global audiences.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/Translation" className="btn">
               Get this service!
             </Link>
           </div>
@@ -158,7 +158,7 @@ const ServiceCard = () => {
               readers, and drive targeted traffic to your website.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/SeoOptimizeBlog" className="btn">
               Get this service!
             </Link>
           </div>
