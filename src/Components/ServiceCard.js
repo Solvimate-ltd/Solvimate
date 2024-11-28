@@ -182,7 +182,7 @@ const ServiceCard = () => {
               to empower learners and advance academic excellence.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/HigherLevelEducation" className="btn">
               Get this service!
             </Link>
           </div>

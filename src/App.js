@@ -13,6 +13,7 @@ import SeoBasedContent from "./Routes/SeoBasedContent";
 import BookWriting from "./Routes/BookWriting";
 import Translation from "./Routes/Translation";
 import SeoOptimizeBlog from "./Routes/SeoOptimizeBlog";
+import HigherLevelEducation from "./Routes/HigherLevelEducation";
 
 function App() {
   return (
@@ -25,12 +26,17 @@ function App() {
       <Route path="/Career" element={<Carrer/>} />
       <Route path="/Contact" element={<Contact/>} />
 
+
+      {/* All service page 👇 */}
+
       <Route path="/K12page" element={<K12page/>} />
       <Route path="/CorporateLearning" element={<CorporateLearning/>} />
       <Route path="/SeoBasedContent" element={<SeoBasedContent/>} />
       <Route path="/BookWriting" element={<BookWriting/>} />
       <Route path="/Translation" element={<Translation/>} />
       <Route path="/SeoOptimizeBlog" element={<SeoOptimizeBlog/>} />
+      <Route path="/HigherLevelEducation" element={<HigherLevelEducation/>} />
+
 
 
 
