@@ -206,7 +206,7 @@ const ServiceCard = () => {
               personalized, real-time support for effective learning.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/LiveTutoring" className="btn">
               Get this service!
             </Link>
           </div>
@@ -230,7 +230,7 @@ const ServiceCard = () => {
               goals.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/Curriculum" className="btn">
               Get this service!
             </Link>
           </div>
@@ -254,7 +254,7 @@ const ServiceCard = () => {
               interactive content.
             </p>
 
-            <Link to="/contact" className="btn">
+            <Link to="/Educational" className="btn">
               Get this service!
             </Link>
           </div>

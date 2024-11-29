@@ -14,6 +14,9 @@ import BookWriting from "./Routes/BookWriting";
 import Translation from "./Routes/Translation";
 import SeoOptimizeBlog from "./Routes/SeoOptimizeBlog";
 import HigherLevelEducation from "./Routes/HigherLevelEducation";
+import LiveTutoring from "./Routes/LiveTutoring";
+import Curriculum from "./Routes/Curriculum";
+import Educational from "./Routes/Educational";
 
 function App() {
   return (
@@ -36,6 +39,13 @@ function App() {
       <Route path="/Translation" element={<Translation/>} />
       <Route path="/SeoOptimizeBlog" element={<SeoOptimizeBlog/>} />
       <Route path="/HigherLevelEducation" element={<HigherLevelEducation/>} />
+      <Route path="/LiveTutoring" element={<LiveTutoring/>} />
+      
+
+      <Route path="/Curriculum" element={<Curriculum/>} />
+
+      <Route path="/Educational" element={<Educational/>} />
+
 
 
 
