@@ -18,14 +18,14 @@ const projectCardData = [
     view: "",
   },
   
-  {
-    imgsrc: photo9,
-    name:"Mr.Sourabh verma",
-    title: "(SR. Web Developer)",
-    text:
-      "I'm working as Senior Web developer and having 2 years of experience in this field.",
-    view: "",
-  },
+  // {
+  //   imgsrc: photo9,
+  //   name:"Mr.Sourabh verma",
+  //   title: "(SR. Web Developer)",
+  //   text:
+  //     "I'm working as Senior Web developer and having 2 years of experience in this field.",
+  //   view: "",
+  // },
 
   // {
   //   imgsrc: photo1,
@@ -69,14 +69,14 @@ const projectCardData = [
       "As a passionate educator, I hold the position of a Subject Matter Expert in Physics.",
     view: "",
   },
-  {
-    imgsrc: photo8,
-    name:"Ms.Tanvi jha",
-    title: "(Subject Matter Expert)",
-    text:
-      "I am first year college student currently working as physics sme",
-    view: "",
-  },
+  // {
+  //   imgsrc: photo8,
+  //   name:"Ms.Tanvi jha",
+  //   title: "(Subject Matter Expert)",
+  //   text:
+  //     "I am first year college student currently working as physics sme",
+  //   view: "",
+  // },
 
   {
     imgsrc: photo2,
