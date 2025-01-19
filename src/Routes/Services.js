@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div>
       <Navbar/>
-      <Hero2img image="../assets/photo10.jpg" heading="Services" text="Services Offered by the Solvimate-LTD"  />
+      <Hero2img image="../assets/photo10.jpg" heading="Services" text="Services Offered by the Solvimate"  />
       <ServiceCard/>
       <Footer/>
 

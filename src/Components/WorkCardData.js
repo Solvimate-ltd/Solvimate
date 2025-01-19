@@ -45,14 +45,14 @@ const projectCardData = [
     view: "",
   },
   
-  {
-    imgsrc: photo3,
-    name:"Ms.Fahmitha Jahaan Fathima A ",
-    title: "(Subject Matter Expert)",
-    text:
-      "Myself Fahmitha Jahaan Fathima and I have finished M.sc statistics as a gold medalist in the year 2023.",
-    view: "",
-  },
+  // {
+  //   imgsrc: photo3,
+  //   name:"Ms.Fahmitha Jahaan Fathima A ",
+  //   title: "(Subject Matter Expert)",
+  //   text:
+  //     "Myself Fahmitha Jahaan Fathima and I have finished M.sc statistics as a gold medalist in the year 2023.",
+  //   view: "",
+  // },
   {
     imgsrc: photo6,
     name:"Mr. Naved faisal",
