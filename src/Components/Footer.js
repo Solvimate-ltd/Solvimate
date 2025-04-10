@@ -18,7 +18,7 @@ const Footer = () => {
         <h4 style={{ color: "#fff"}}>Contact Information.</h4>
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight:"2rem" }} />
-              <p style={{ color: "#fff"}}>Address:Uttarpardesh</p>
+              <p style={{ color: "#fff"}}>Address:- Uttarpardesh</p>
               <p style={{ color: "#fff"}}>(INDIA)</p>
               </div>
           <div className="phone">
@@ -34,9 +34,9 @@ const Footer = () => {
             <h4 style={{ color: "#fff"}}>
               <FaMailBulk
                 size={20}
-                style={{ color: "#fff", marginRight: "1rem" }}
+                style={{ color: "#fff", marginRight: "2rem" }}
               />
-             operationssolvimate@gmail.com
+              operationssolvimate@gmail.com
             </h4>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="right">
           <h4 style={{ color: "#fff"}}>About the company</h4>
           <p style={{ color: "#fff"}}>
-            Solvimate-LTD Grow Together, a trailblazer in the content industry, cultivates
+            Solvimate Grow Together, a trailblazer in the content industry, cultivates
             knowledge through innovative solutions, fostering learning
             excellence for a brighter future.
           </p>
