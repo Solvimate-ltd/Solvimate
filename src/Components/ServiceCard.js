@@ -31,9 +31,7 @@ const ServiceCard = () => {
             <p className="btc">K12 Service Provider</p>
 
             <p>
-              We provide high-quality, curriculum-aligned content and innovative
-              solutions to enhance K-12 education, empowering students,
-              teachers, and parents.
+              We are dedicated to providing comprehensive services to meet the needs of K12 schools, Edtech companies and publication houses.
             </p>
 
             <Link to="/K12page" className="btn">
@@ -56,9 +54,7 @@ const ServiceCard = () => {
             <p className="btc">Corporate Learning</p>
 
             <p>
-              We deliver tailored corporate learning solutions to enhance
-              workforce skills, drive engagement, and support organizational
-              growth and success.
+             Solvimate, a trusted partner for the corporate learning content creation. We have a dedicated team for content creation of corporate learning content.
             </p>
 
             <Link to="/CorporateLearning" className="btn">
@@ -139,31 +135,6 @@ const ServiceCard = () => {
             </Link>
           </div>
         </div>
-
-        <div className="card">
-          <div className="left">
-            <h4 className="servics-icon">
-              {" "}
-              <MdEngineering
-                size={60}
-                style={{ color: "skyblue", marginRight: "2rem" }}
-              />
-            </h4>
-          </div>
-          <div className="right">
-            <p className="btc">SEO Optimized Blogs</p>
-
-            <p>
-              Creating SEO-optimized blogs that boost visibility, engage
-              readers, and drive targeted traffic to your website.
-            </p>
-
-            <Link to="/SeoOptimizeBlog" className="btn">
-              Get this service!
-            </Link>
-          </div>
-        </div>
-
         <div className="card">
           <div className="left">
             <h4 className="servics-icon">
