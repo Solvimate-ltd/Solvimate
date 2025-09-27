@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import ic_import from '../../../../public/svgs/ic_import.svg';
 import file from '../../../../public/images/file.png';
 
 import { Wrapper, Inner, SecondOverlay } from './styles';
@@ -14,72 +13,78 @@ const Preloader = ({
 }) => {
   const word = ['S', 'O', 'L', 'V', 'I', 'M', 'A', 'T', 'E'];
 
-  const spans = useRef<any>([]); // Create a ref to store the span elements
-  const imageRef = useRef(null);
-  const secondOverlayRef = useRef(null);
-  const wrapperRef = useRef(null);
+  // Refs
+  const spans = useRef<HTMLDivElement[]>([]);
+  const imageRef = useRef<HTMLDivElement | null>(null);
+  const secondOverlayRef = useRef<HTMLDivElement | null>(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const tl = gsap.timeline();
-    tl.to(imageRef.current, {
-      rotate: '360deg',
-      ease: 'back.out(1.7)', // Easing function
-      duration: 1.4,
-    });
-    tl.to(imageRef.current, {
-      y: '-100%', // Move the spans up
-      ease: 'back.out(1.7)', // Easing function
-    });
-    // Iterate through the span elements and animate them
-    tl.to(spans.current, {
-      y: '-100%', // Move the spans up
-      ease: 'back.out(1.7)', // Easing function
-      duration: 1.4, // Animation duration
-      stagger: 0.07, // 1 second stagger duration (1 second delay between each span)
-    });
-    // Animate both the wrapper and the second overlay almost at the same time
-    tl.to([wrapperRef.current, secondOverlayRef.current], {
-      scaleY: 0,
-      transformOrigin: 'top',
-      ease: 'back.out(1.7)',
-      duration: 1,
-      stagger: 0.2,
-      onComplete: () => {
-        setComplete(true);
-      },
-    });
 
-    // Apply a small delay to one of the elements (adjust as needed)
-    tl.to(secondOverlayRef.current, {
-      scaleY: 0,
-      transformOrigin: 'top',
-      ease: [0.83, 0, 0.17, 1] as any,
-      duration: 1,
-      delay: -0.9, // Adjust this delay as needed to fine-tune the timing
-    });
+    if (imageRef.current && spans.current.length && wrapperRef.current && secondOverlayRef.current) {
+      // Animate image
+      tl.to(imageRef.current, {
+        rotate: 360,
+        ease: 'back.out(1.7)',
+        duration: 1.4,
+      });
+
+      tl.to(imageRef.current, {
+        y: '-100%',
+        ease: 'back.out(1.7)',
+      });
+
+      // Animate letters
+      tl.to(spans.current, {
+        y: '-100%',
+        ease: 'back.out(1.7)',
+        duration: 1.4,
+        stagger: 0.07,
+      });
+
+      // Animate overlay and wrapper
+      tl.to([wrapperRef.current, secondOverlayRef.current], {
+        scaleY: 0,
+        transformOrigin: 'top',
+        ease: 'back.out(1.7)',
+        duration: 1,
+        stagger: 0.2,
+        onComplete: () => setComplete(true),
+      });
+
+      // Small delay for second overlay
+      tl.to(secondOverlayRef.current, {
+        scaleY: 0,
+        transformOrigin: 'top',
+        ease: [0.83, 0, 0.17, 1] as any,
+        duration: 1,
+        delay: -0.9,
+      });
+    }
   }, [setComplete]);
 
   return (
     <>
       <Wrapper ref={wrapperRef}>
         <Inner>
-          <Image ref={imageRef} src={file} alt="import icon" />
-          
+          {/* Wrap Image in div for ref */}
+          <div ref={imageRef} style={{ display: 'inline-block' }}>
+            <Image src={file} alt="import icon" />
+          </div>
+
           <div>
             {word.map((t, i) => (
               <div
                 key={i}
-                ref={(element) => (spans.current[i] = element)} // Assign ref to each span
+                ref={(el) => {
+                  if (el) spans.current[i] = el;
+                }}
               >
                 {t}
-                
               </div>
-            
-
             ))}
-            
           </div>
-          
         </Inner>
       </Wrapper>
       <SecondOverlay ref={secondOverlayRef}></SecondOverlay>

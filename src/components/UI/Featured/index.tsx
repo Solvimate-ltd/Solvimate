@@ -8,7 +8,7 @@ import { Wrapper, Inner, ImageContainer, ParallaxImages, Div } from './styles';
 import RevealCover from '@/components/Common/RevealCover';
 import { useIsMobile } from '../../../../libs/useIsMobile';
 // import companies_image from '../../../../public/images/Company_logos.png';
-import companies_image from '../../../../public/images/Web_Logo_Final.png';
+import companies_image from '../../../../public/images/New Project.png';
 
 export const imageVariants = {
   hidden: {
