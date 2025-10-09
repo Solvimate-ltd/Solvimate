@@ -10,7 +10,7 @@ const titleAnimation = {
 
 const letterAnimation = {
   rest: { y: 0 },
-  hover: { y: -25, transition: { duration: 0.3, ease: [0.6,0.01,0.05,0.95], type: 'tween' } },
+  hover: { y: -6, transition: { duration: 0.3, ease: [0.6,0.01,0.05,0.95], type: 'tween' } },
 };
 
 const letterAnimationTwo = {
