@@ -37,7 +37,7 @@ export const links = [
     linkTo: 'About',
   },
   {
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfn31IKQFQ4yD-z7Yjyt_g00A9KNUhL-WwbHkH0apYKr4jXzQ/viewform',
+    href: 'https://forms.gle/rNzSqiEghafwiYvN9',
     linkTo: 'Customers',
 
   },{
