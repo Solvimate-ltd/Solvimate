@@ -42,7 +42,6 @@ export const stats = [
     subtitle: 'User Ratings',
   },
 ];
-
 // For desktop
 export const desktopHeaderPhrase = [
   'Confidently Share ',

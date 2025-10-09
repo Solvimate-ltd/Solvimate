@@ -46,7 +46,7 @@ useEffect(() => setMounted(true), []);
           ))}
         </Nav>
         <CallToActions className={isOpen ? 'active' : ''}>
-          <AnimatedLink title="Login" />
+          {/* <AnimatedLink title="Login" /> */}
           <GetStartedButton padding="0.5rem 0.75rem" />
         </CallToActions>
       </Inner>

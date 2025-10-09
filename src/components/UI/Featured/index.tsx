@@ -7,7 +7,8 @@ import ParallaxText from '@/components/Common/ParallaxImages';
 import { Wrapper, Inner, ImageContainer, ParallaxImages, Div } from './styles';
 import RevealCover from '@/components/Common/RevealCover';
 import { useIsMobile } from '../../../../libs/useIsMobile';
-import companies_image from '../../../../public/images/New_Project.png';
+import companies_image from '../../../../public/images/Company_crousel.png';
+
 
 export const imageVariants = {
   hidden: {

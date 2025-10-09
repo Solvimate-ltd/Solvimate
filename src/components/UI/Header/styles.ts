@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { styled } from 'styled-components';
 
 export const Wrapper = styled.section`
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border-bottom: 0.5px solid #3d3d3d;
 
   @media (max-width: 768px) {
@@ -60,7 +60,7 @@ export const Nav = styled.div`
   align-items: center;
   gap: 3.75rem;
   position: relative;
-  margin-right: -6.3rem;
+  // margin-right: -6.3rem;
 
   a {
     color: var(--link-color);
