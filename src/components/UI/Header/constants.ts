@@ -1,3 +1,6 @@
+import { url } from "inspector";
+import Link from "next/link";
+
 export const menu = {
   open: {
     width: '250px',
@@ -22,22 +25,23 @@ export const menu = {
 };
 export const links = [
   {
-    url: '/',
+    href: '/',
     linkTo: 'Solutions',
   },
   {
-    url: '/',
+    href: '/',
     linkTo: 'Learn',
   },
   {
-    url: '/',
+    href: '/',
     linkTo: 'About',
   },
   {
-    url: '/',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfn31IKQFQ4yD-z7Yjyt_g00A9KNUhL-WwbHkH0apYKr4jXzQ/viewform',
     linkTo: 'Customers',
+
   },{
-    url: '/',
+    href: '/',
     linkTo: 'Jobs',
   },
 ];

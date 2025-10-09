@@ -42,7 +42,7 @@ useEffect(() => setMounted(true), []);
         <Nav className={mounted && isOpen ? 'active' : ''}>
 
           {links.map((link, i) => (
-            <AnimatedLink key={i} title={link.linkTo} />
+            <AnimatedLink key={i} title={link.linkTo} href={link.href}/>
           ))}
         </Nav>
         <CallToActions className={isOpen ? 'active' : ''}>

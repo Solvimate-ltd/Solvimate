@@ -9,6 +9,7 @@ import {
   OffersSection,
 } from '@/components';
 
+
 export default function Home() {
   return (
     <main>
@@ -20,6 +21,8 @@ export default function Home() {
       {/* <IntroSection /> */}
       <JoinSection />
       <FAQ />
+      
     </main>
+    
   );
 }
