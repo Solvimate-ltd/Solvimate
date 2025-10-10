@@ -33,11 +33,11 @@ export const links = [
     linkTo: 'Learn',
   },
   {
-    href: '/',
+    href: '/about',
     linkTo: 'About',
   },
   {
-    href: 'https://forms.gle/rNzSqiEghafwiYvN9',
+    href: '/customerForm',
     linkTo: 'Customers',
 
   },{

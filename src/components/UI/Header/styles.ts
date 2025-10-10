@@ -95,12 +95,10 @@ export const AbsoluteLinks = styled(Link)`
   font-size: 1rem;
   font-weight: 400;
 `;
-
 export const CallToActions = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
-
   div {
     span {
       color: var(--white);
@@ -108,7 +106,6 @@ export const CallToActions = styled.div`
       font-weight: 600;
     }
   }
-
   @media (max-width: 768px) {
     position: absolute;
     top: 220px;
@@ -118,7 +115,6 @@ export const CallToActions = styled.div`
     opacity: 0;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-delay: 0.5s;
-
     &.active {
       opacity: 1;
       visibility: visible;

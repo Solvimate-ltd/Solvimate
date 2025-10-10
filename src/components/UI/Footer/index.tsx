@@ -44,9 +44,9 @@ const Footer = () => {
     <Wrapper>
       <Inner>
         <FooterLogo>
-          <Image src={raft_footer_logo} alt="raft_footer_logo"/>
-          
-          <div>
+          <Image src={raft_footer_logo} style={{  width: '80px',  height: '115px'}}alt="raft_footer_logo"/>
+           
+          <div >
             SOLVIMATE
           </div>
         </FooterLogo>

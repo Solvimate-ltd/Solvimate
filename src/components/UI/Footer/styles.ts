@@ -2,7 +2,7 @@
 import { styled } from 'styled-components';
 
 export const Wrapper = styled.footer`
-  padding-bottom: 3.5rem;
+  padding-bottom: 2.5rem;
 `;
 
 export const Inner = styled.main`
@@ -11,7 +11,7 @@ export const Inner = styled.main`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 3.75rem;
+  gap: 1.75rem;
 
   @media (max-width: 768px) {
     gap: 2.5rem;
@@ -22,14 +22,18 @@ export const FooterLogo = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 10rem;
+  font-size: 6rem;
   font-weight: 300;
+  
   @media (max-width: 768px) {
+  font-size: 4rem;
+  font-weight: 300;
+  
     width: 13.2rem;
     height: 5.6rem;
     img {
-      width: 100%;
-      height: 100%;
+      width: 90%;
+      height: 90%;
       object-fit: contain;
     }
   }
