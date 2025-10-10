@@ -3,7 +3,9 @@
 import { useState } from 'react';
 import './styles.css';
 import Image from 'next/image';
-import contactImage from '../../../../Solvimate/public/images/deom.jpg';
+// import  from '../../../../Solvimate/public/images/deom.jpg';
+// import contactImage from '../../../../public/images/deom.jpg';
+
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -105,7 +107,10 @@ export default function ContactPage() {
 
       {/* Right side: Image */}
       <div className="right-side">
-        <Image src={contactImage} alt="Contact Us" />
+        <Image src="/images/deom.jpg"  
+        width={500}     
+    height={400} 
+    alt="deom" />
       </div>
     </div>
   );
