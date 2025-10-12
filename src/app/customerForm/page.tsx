@@ -48,9 +48,9 @@ export default function ContactPage() {
   };
 
   // Static headings
-  const mainHeading = 'Access with Global High-Quality Language Experts';
+  const mainHeading = 'Access Global-Quality Language Experts with Solvimate';
   const subHeading =
-    'We provide end-to-end recruiting solutions for IT & Non-IT companies—part-time or full-time – at budget-friendly rates. Partner with us and save 50% on your recruitment spend.';
+    'Empower your projects with our worldwide network of skilled linguists, delivering accuracy, cultural relevance, and excellence across every language.';
 
   return (
     <div className="contact-page">
@@ -107,7 +107,7 @@ export default function ContactPage() {
 
       {/* Right side: Image */}
       <div className="right-side">
-        <Image src="/images/deom.jpg"  
+        <Image src="/images/customer.jpg"  
         width={500}     
     height={400} 
     alt="deom" />

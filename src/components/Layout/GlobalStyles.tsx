@@ -10,6 +10,8 @@ export const GlobalStyles = styled.createGlobalStyle`
     --link-color: #bdbdbd;
     --green: #2b892e;
     --emerald: #60d464ff;
+    // --green: #2b892e;
+    
   }
 
   * {

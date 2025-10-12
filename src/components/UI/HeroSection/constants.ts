@@ -1,7 +1,7 @@
 // For desktop
-export const phrases = ['Learn, Grow-The Journey Never Ends', 'Grow Together.'];
+export const phrases = ['Learn, Grow-The Journey Never Ends', 'GROW Together.'];
 export const paragraphPhrases = [
-  " ' Get affordable and high-quality Content Services and Solutions ' ",
+  " 'Get affordable and high-quality Content Services and Solutions' ",
 ];
 
 // For mobile

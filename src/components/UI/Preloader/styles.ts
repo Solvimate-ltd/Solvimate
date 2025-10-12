@@ -45,15 +45,17 @@ export const Inner = styled.div`
 
   @media (max-width: 768px) {
     gap: 1rem;
-    height: 13rem;
-    img {
-      width: 7rem;
-      height: 100%;
+    height: 4rem;
+    
+     img {
+    width: 3.5em;
+    height: 3.5em;
+  
     }
 
     div {
       div {
-        font-size: 6rem;
+        font-size: 4rem;
       }
     }
   }
