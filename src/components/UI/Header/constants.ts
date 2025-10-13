@@ -41,7 +41,7 @@ export const links = [
     linkTo: 'Customers',
 
   },{
-    href: '/',
+    href: '/jobpage',
     linkTo: 'Jobs',
   },
 ];
