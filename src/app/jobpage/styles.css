@@ -66,6 +66,7 @@
 .custom-table td {
   /* border-right: 1px solid #ccc; */
   padding: 8px 12px;
+  
   text-align: left;
 }
 
@@ -77,8 +78,9 @@
 
 
 .custom-table tr:hover {
-  background-color: #c2fd77;
-  transition: 0.2s;
+  background-color: #d2f4a6;
+  
+  transition: 0.5s;
   color: #555;
 }
 .apply-btn {
@@ -162,47 +164,76 @@
   background-color: #b52a36;
 }
 /* Submit button (modal) */
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 700px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+}
+
+/* Two-column grid layout */
+.modal-content form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.modal-content textarea {
+  grid-column: span 2;
+  height: 90px;
+}
+
+.modal-buttons {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+/* Buttons */
 .submit-btn {
-  background-color: #28a745; /* green */
-  color: #ffffff;
+  background-color: #28a745;
+  color: #fff;
   border: none;
   padding: 10px 18px;
   border-radius: 6px;
   font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.15s ease, transform 0.08s ease;
-  box-shadow: 0 2px 6px rgba(40, 167, 69, 0.18);
+  transition: background-color 0.2s ease;
 }
 
 .submit-btn:hover {
   background-color: #218838;
-  transform: translateY(-1px);
 }
 
-.submit-btn:active {
-  transform: translateY(0);
+.cancel-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-.submit-btn:focus {
-  outline: 3px solid rgba(33, 136, 56, 0.15);
-  outline-offset: 2px;
-}
-
-/* disabled state, in case you use disabled attribute */
-.submit-btn:disabled {
-  background-color: #94d3a2;
-  cursor: not-allowed;
-  box-shadow: none;
-  opacity: 0.85;
-}
-/* Animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+.cancel-btn:hover {
+  background-color: #c82333;
 }
