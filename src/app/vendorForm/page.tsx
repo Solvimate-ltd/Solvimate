@@ -78,7 +78,7 @@ const CandidateForm: React.FC = () => {
             <p>Mobile:</p>
             <input name="mobile" type="tel" placeholder="Mobile Number" required />
 
-            <p>Upload Resume:</p>
+            <p> Company Profile:</p>
             <input
               name="resume"
               type="file"
