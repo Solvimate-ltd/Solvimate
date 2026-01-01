@@ -13,6 +13,7 @@ import {
 // import raft_logo from '../../../../public/svgs/raft_logo.svg';
 // import Solvimate_logo from '../../../../public/svgs/Solvimate_logo.svg';
 import aakaash1 from '../../../../public/images/aakaash1.jpg';
+
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';

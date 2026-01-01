@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Wrapper, Inner, Pill, HeroTextContainer } from './styles';
 import ic_chevron_right from '../../../../public/svgs/ic_chevron_right.svg';
 import { GetStartedButton } from '@/components';
@@ -34,7 +35,9 @@ const HeroSection = () => {
             </>
           )}
         </HeroTextContainer>
+        <Link href="/jobpage">
         <GetStartedButton padding="1rem 2rem" />
+        </Link>
       </Inner>
     </Wrapper>
   );
